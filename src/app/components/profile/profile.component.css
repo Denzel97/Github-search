@@ -1,5 +1,10 @@
 img{
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
+}
+.search-form{
+  padding: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
