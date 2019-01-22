@@ -12,10 +12,10 @@
     </div>
     <div class="panel-body">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-md-4" id="img">
           <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Proflie Image">
         </div>
-        <div class="col-sm-5">
+        <div class="col-md-4">
           <ul class="list-group">
             <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
             <li class="list-group-item" *ngIf="profile.hireable">Available for hire</li>
@@ -23,7 +23,7 @@
             <li class="list-group-item" *ngIf="profile.email"><a href="emailto:{{profile.emali}}">{{profile.emali}}</a></li>
           </ul>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <div>
             <p>
               <span class="label label-default">{{profile.followers}}Followers</span>
