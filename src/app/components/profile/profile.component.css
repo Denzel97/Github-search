@@ -4,13 +4,20 @@ img {
   width: 300px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 30px;
+  margin-top: 1%;
+}
+
+.jumbotron {
+  background-color: white;
+  border: 0.5px solid black;
+  margin: 1%;
+  padding: 2%;
 }
 
 .search-form {
   padding: 50px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .block {
@@ -20,4 +27,22 @@ img {
 
 .panel-heading {
   margin: 2%;
+}
+
+.fol {
+  margin: 5%;
+}
+
+.fol span {
+  border: 0.5px solid black;
+  border-radius: 10px;
+  margin: 0.2%;
+  padding: 1%;
+}
+
+.panel-body>.rep{
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 0.4%;
 }
