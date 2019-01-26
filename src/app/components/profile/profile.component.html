@@ -10,8 +10,8 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         {{profile.name}} <small>({{profile.login}})</small><br>
-        <span *ngIf="profile.company">Works at {{profile.company}}</span><br>
-        {{profile.location}}
+        <span *ngIf="profile.company">Works at {{profile.company | uppercase }}</span><br>
+        {{profile.location | uppercase }}
       </div>
       <div class="panel-body">
         <div class="row">
